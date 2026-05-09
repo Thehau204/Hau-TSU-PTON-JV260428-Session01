@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    padding: 40px;
+}
+.quote-box {
+    width: 300px;
+    background: #fff3d8;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.quote-box h2 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}
+
+.quote {
+    font-style: italic;
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+.read-more {
+    padding: 10px 18px;
+    background: #ddd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    background: #2ecc71;
+    color: white;
+}

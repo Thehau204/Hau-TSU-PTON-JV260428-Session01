@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input {
+  width: 300px;
+}
+textarea {
+  width: 300px;
+}
+button {
+  width: 300px;
+  background-color: rgb(62, 245, 62);
+  color: white;
+  border-radius: 4px;
+  height: 30px;
+}
+h1 {
+    text-align: left;
+    margin-bottom: 10px;
+}
