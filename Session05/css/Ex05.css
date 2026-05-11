@@ -1,0 +1,44 @@
+.transition{
+    width: 200px;
+    height: 130px;
+    background-color: rgb(168, 165, 165);
+    color: white;
+    text-align: center;
+    line-height: 130px;
+    transition: all 0.5s ease;
+}
+.transition:hover{
+    background-color: rgb(44, 42, 42);
+    color: white;
+}
+.animation{
+    width: 200px;
+    height: 130px;
+    background-color: rgb(73, 66, 66);
+    color: white;
+    text-align: center;
+    line-height: 130px;
+    margin-top: 40px;
+}
+.animation:hover{
+    background-color: rgb(11, 40, 201);
+    color: white;
+}
+.box{
+    width: 170px;
+    height: 120px;
+    background:rgb(101, 105, 105);
+    margin-top: 40px;
+    animation:move 2s infinite alternate;
+    text-align: center;
+    line-height: 120px;
+    margin-top: 30px;
+}
+.box:hover{
+    border-right: 10px solid rgb(148, 42, 42);
+    border-left: 10px solid rgb(148, 42, 42);
+    border-top: 10px solid rgb(148, 42, 42);
+    border-bottom: 10px solid rgb(148, 42, 42);
+    transition: all 0.5s ease;
+}
+
