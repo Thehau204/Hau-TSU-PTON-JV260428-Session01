@@ -1,0 +1,102 @@
+body{
+            font-family: Arial;
+            background: #f2f2f2;
+            margin: 0;
+        }
+
+        /* MENU */
+        .menu{
+            background: #222733;
+            color: white;
+            padding: 20px 40px;
+        }
+
+        .logo{
+            display: inline-block;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .nav{
+            float: right;
+            margin-top: 8px;
+        }
+
+        .nav a{
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+        .nav a:hover{
+            color: red;
+        }
+
+        /* INFO */
+        .info{
+            background: white;
+            padding: 40px;
+            height: 180px;
+        }
+
+        .avatar{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            vertical-align: middle;
+        }
+
+        .text{
+            display: inline-block;
+            margin-left: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            vertical-align: middle;
+            margin-top: 30px;
+        }
+
+        /* PROJECT */
+        .project{
+            padding: 20px 40px;
+            margin-left: 40px;
+        }
+
+        .project h2{
+            font-size: 24px;
+        }
+
+        .box{
+            width: 22%;
+            background: #222733;
+            color: white;
+            display: inline-block;
+            text-align: center;
+            padding: 15px 0;
+            border-radius: 6px;
+            margin-right: 15px;
+        }
+        .box a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .box a:hover{
+            color: red;
+        }
+
+        /* FOOTER */
+        .footer{
+            background: #e5e5e5;
+            text-align: center;
+            padding: 20px;
+            margin-top: 370px;
+        }
+
+        .footer a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .footer a:hover{
+            color: blue;
+        }

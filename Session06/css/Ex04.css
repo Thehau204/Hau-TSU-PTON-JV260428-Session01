@@ -1,0 +1,87 @@
+/* Reset CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#main {
+    width: 100%;
+}
+
+.header {
+  height: 110px;
+  width: 100%;
+  background-color: #4caf50;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.main-title {
+  color: white;
+}
+
+.navbar {
+  margin-top: 12px;
+}
+
+.navbar a:first-child {
+  margin-right: 12px;
+}
+
+.navbar a:nth-child(2) {
+  margin-right: 12px;
+}
+.navbar a:hover {
+    color: red;
+}
+.main-container {
+  width: 100%;
+  padding: 24px;
+}
+
+.menu {
+  height: 300px;
+  width: 25%;
+  float: left;
+  padding: 24px 12px;
+  background-color: #dadada;
+  border: 1px solid gray;
+}
+
+.list-cource {
+  margin-left: 24px;
+  margin-top: 12px;
+}
+
+.main {
+  padding: 24px;
+  height: 300px;
+  width: 75%;
+  float: left;
+}
+
+.cource-item {
+  border-bottom: 1px solid #dadada;
+  padding: 12px 0;
+}
+
+.title-post {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.image {
+  height: 200px;
+}
+
+.description {
+    margin-top: 12px;
+}
+.list-cource a:hover {
+    color: red;
+}
